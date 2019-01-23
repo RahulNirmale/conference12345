@@ -1,0 +1,6 @@
+com\google\devrel\training\conference\Constants.class
+com\google\devrel\training\conference\form\ProfileForm$TeeShirtSize.class
+com\google\devrel\training\conference\form\ProfileForm.class
+com\google\devrel\training\conference\service\OfyService.class
+com\google\devrel\training\conference\domain\Profile.class
+com\google\devrel\training\conference\spi\ConferenceApi.class
