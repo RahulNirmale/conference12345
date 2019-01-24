@@ -6,6 +6,7 @@ import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiMethod.HttpMethod;
 import com.google.api.server.spi.response.UnauthorizedException;
+import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.users.User;
 import com.google.devrel.training.conference.Constants;
 import com.google.devrel.training.conference.domain.Profile;
@@ -96,6 +97,7 @@ public class ConferenceApi {
 
 		// TODO 3 (In lesson 3)
 		// Save the entity in the datastore
+		ofy().save().entity(profile).now();
 
 		// Return the profile
 		return profile;
@@ -119,9 +121,17 @@ public class ConferenceApi {
 
 		// TODO
 		// load the Profile Entity
-		String userId = ""; // TODO
-		Key key = null; // TODO
+		String userId=user.getUserId();
+		//String userId = ""; // TODO
+		Key<Profile> key=Key.create(Profile.class,userId);
+		//Key key = null; // TODO
+		
+		
 		Profile profile = null; // TODO load the Profile entity
+		
+		
+		profile=ofy().load().key(key).now();
+		
 		return profile;
 	}
 }
