@@ -1,5 +1,11 @@
+C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\domain\Conference.java
+C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\form\ConferenceForm.java
 C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\form\ProfileForm.java
 C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\spi\ConferenceApi.java
+C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\form\ConferenceQueryForm.java
 C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\service\OfyService.java
 C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\domain\Profile.java
+C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\servlet\SendConfirmationEmailServlet.java
+C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\servlet\SetAnnouncementServlet.java
 C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\Constants.java
+C:\Users\Admin\git\conference12345\conference\src\main\java\com\google\devrel\training\conference\domain\Announcement.java
