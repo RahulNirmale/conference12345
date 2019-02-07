@@ -435,7 +435,8 @@ conferenceApp.controllers.controller('ShowConferenceCtrl', function ($scope, $lo
             }
         }
         $scope.loading = true;
-        gapi.client.conference.queryConferences(sendFilters).
+       
+        gapi.client.conference.queryConeferences(sendFilters).
             execute(function (resp) {
                 $scope.$apply(function () {
                     $scope.loading = false;
